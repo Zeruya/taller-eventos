@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taller eventos</title>
+    <script src="eventos.js"></script>
 </head>
 <body>
+    <div id="alerta">
     <button onclick="mensaje()">Saludar</button>
     <script>
         function mensaje() {
             alert("Hola!");
         }
     </script>
+    </div>
+
+    <style>
+        #alerta {
+            padding: 5px;
+            background-color: green;
+        }
+    </style>
     
 </body>
 </html>
